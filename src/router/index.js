@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: "/incomes",
+    path: "/",
     component: () => import("../pages/MainPage.vue"),
     props: {
       endpoint: "incomes",
